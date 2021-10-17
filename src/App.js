@@ -11,7 +11,7 @@ function App() {
 
         <div className="content">
           <Switch>
-            <Route exact path="/countryAPI">
+            <Route exact path="/">
               <Home />
             </Route>
 

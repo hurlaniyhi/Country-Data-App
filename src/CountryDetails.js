@@ -17,7 +17,7 @@ const CountryDetails = () => {
 
   return (
     <div className="details container">
-      <Link to="/countryAPI">
+      <Link to="/">
         <div className="arrow-back">
           <span>&#8592;</span> Back
         </div>

@@ -3,7 +3,7 @@ import UseFetch from "./UseFetch";
 import { useState, useEffect } from "react";
 
 const Home = () => {
-  // =============== All Countries ===============
+  //=============== All Countries ===============
   const [country, setCountry] = useState("");
   const [region, setRegion] = useState("Filter by Region");
 
@@ -109,6 +109,9 @@ const Home = () => {
       />
     </div>
   );
+  // return (
+  //   <p>Welcome to React.js</p>
+  // )
 };
 
 export default Home;
